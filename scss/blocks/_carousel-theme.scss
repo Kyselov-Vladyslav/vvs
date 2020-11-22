@@ -1,0 +1,110 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+ .owl-carousel .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.owl-carousel .owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.owl-carousel .owl-nav [class*="owl-"]:hover {
+  //border: 2px solid $blue;
+  opacity: 1;
+  outline: none;
+  
+  
+}
+.owl-carousel .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.owl-carousel .owl-nav {
+  button.owl-prev,
+  button.owl-next {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background: transparent;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 21px;
+    opacity: 0.5;
+
+    color: inherit;
+   
+    padding: 0 !important;
+    font: inherit;
+    outline: none;
+    
+  }
+
+  button.owl-prev {
+    left: 60px;
+    background-image: url("./../img/icons/carousel_left.svg");
+  }
+
+  button.owl-next {
+    right: 60px;
+    background-image: url("./../img/icons/carousel_right.svg");
+  }
+}
+
+.owl-carousel .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+}
+
+.owl-carousel .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.owl-carousel .owl-dots button.owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  
+}
+
+.owl-carousel button.owl-dot{
+  width: 68px;
+  height: 2px;
+  margin: 15px 15px;
+  transition: opacity 200ms ease;
+  opacity: 0.3;
+}
+
+
+
+.owl-carousel  .owl-dots button.owl-dot.active ,
+.owl-carousel  .owl-dots button.owl-dot:hover  {
+  opacity: 1;
+
+}

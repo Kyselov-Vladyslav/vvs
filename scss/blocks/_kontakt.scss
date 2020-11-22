@@ -1,0 +1,75 @@
+
+
+.sections-kontakt {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+   // justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .kontakt-text {
+    color: #2a3a3f;
+    font-size: 20px;
+    font-weight: 600;
+    p{
+        margin-top: 20px;
+     }
+     a{
+         text-decoration: none;
+         color: $blue;
+         &:hover{
+             color: #2a3a3f;
+         }
+     }
+  }
+
+  .sections-kontakt_center {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+   
+    @extend %mixin-card;
+    text-align: center;
+    justify-content: center;
+    padding: 0 40px;
+    width: 70%;
+    height: 60px;
+  }
+
+.kontakt-text_center{
+
+    color:#2a3a3f;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    p{
+      margin-top: 20px;
+   }
+   a{
+       text-decoration: none;
+       color: $blue;
+       &:hover{
+           color:#2a3a3f;
+       }
+   }
+    
+}
+
+.maps{
+    @extend %mixin-card;
+    margin-bottom: 70px;
+}
+
+
+.img_kontakt{
+    position: absolute;
+    width: 300px;
+   margin-top: -208px;
+    margin-left: 15px;
+    // box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    // background-color: #ffffff;
+
+  } 

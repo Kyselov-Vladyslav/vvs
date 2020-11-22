@@ -1,0 +1,12 @@
+.header-button__icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+
+.header-button__text {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.14;
+}

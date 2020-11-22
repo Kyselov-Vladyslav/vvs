@@ -1,0 +1,175 @@
+#sale__section-swetry{
+    display: block;
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+}
+#sale__section-czapki{
+    display: none;
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+}
+#sale__section-szaliki{
+    display: none;
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+}
+#sale__section-rekawiczki{
+    display: none;
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+}
+#sale__section-sukienki{
+    display: none;
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+}
+#sale__section-kardigany{
+    display: none;
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+}
+
+// .swetry_all{
+    
+// }
+.sale-section__row {
+    display: inline-block;
+    justify-content: center;
+}
+.sale-section__all{
+    display: flex;
+    justify-content: center;
+}
+
+.sale-section__col {
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+.sale-section-item-link-wrapper {
+    display: block;
+    margin-bottom: 68px;
+
+}
+
+.sale-section-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    max-width: 350px;
+    height: 550px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    background-color: #ffffff;
+    transition: box-shadow 0.2s ease-in,  transform 0.2s ease-in;
+
+  
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.619);
+    }
+    
+
+}
+
+
+.sale-section-item__title {
+    padding-bottom: 15px;
+    color: #666666;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    &:hover {
+        color: $blue;
+    }
+}
+.card__footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -120px;
+}
+
+.sale-section-item__subtitle {
+    color: #1b1a1aef;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 0.16px;
+}
+.sale-link__icon{
+    outline: none;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.sale_card-svg{
+    fill: #666666;
+    transition: box-shadow 0.2s ease-in,  transform 0.2s ease-in;
+    &:hover {
+        transform: translateY(-2px);
+        fill: $blue;
+    }
+}
+
+.sale-section-item--background-img {
+    justify-content: flex-end;
+    background-color: #3b4b48;
+    background-position: center;
+    background-size: cover;
+
+}
+.sale-link__down{
+    margin-bottom: 60px;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+   
+
+    transition:  transform 0.3s ease-in;
+
+    &:hover {
+        transform: translateY(10px);
+        .sale-section-down__title {
+            color: $blue;
+        }
+        .sale_svg_down{
+            fill: $blue;
+    }
+    }
+}
+
+.sale-section-down__title {
+   
+    padding-bottom: 15px;
+    color: #666666;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.sale_svg_down{
+    width: 80px;
+    fill: #666666;
+}

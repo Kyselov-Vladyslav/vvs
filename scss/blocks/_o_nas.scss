@@ -1,0 +1,126 @@
+.o_nas {
+  @extend %mixin-card;
+  padding: 0 35px 0 35px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  .o_nas-1 {
+    @extend %mixin-card;
+    padding: 0 35px 0 35px;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+  
+    }
+    .o_nas-2 {
+      @extend %mixin-card;
+      padding: 0 35px 0 35px;
+      display: block;
+      width: 100%;
+      height: 2260px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      justify-content: space-between;
+      align-items: center;
+    
+      }
+      .o_nas-3 {
+        @extend %mixin-card;
+        padding: 0 35px 0 35px;
+        display: flex;
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        align-items: center;
+      
+        }
+  
+  .o_nas-text {
+    padding: 15px;
+    color: #2a3a3f;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    p{
+      text-indent: 1.5em;
+      padding-top: 5px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+  }
+
+  .text-plus-img{
+    display: flex;
+  }
+  .text-plus-img-block{
+    display: block;
+  }
+  .img_o-nas{
+    width: 300px;
+    margin-left: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    background-color: #ffffff;
+  } 
+  .img_o-nas-1{
+    width: 300px;
+    margin-left: 10px;
+    
+    border-radius: 6px;
+    
+  } 
+
+  .img_o-nas-2{
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 27px;
+    margin-left: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    background-color: #ffffff;
+  } 
+  .img_o-nas-2-1{
+    width: 650px;
+    margin: 5px;
+    margin-top: 27px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    background-color: #ffffff;
+  } 
+  .img_o-nas-3{
+    justify-content: center;
+    margin-left: 200px;
+    width: 500px;
+    margin-left: 10px;
+    border-radius: 6px;
+  } 
+  .img_o-nas-4{
+    justify-content: center;
+    width: 700px;
+    margin-left: 120px;
+  } 
+  .img_o-nas-4-1{
+    justify-content: center;
+    width: 600px;
+    margin-left: 200px;
+  } 
+  .img_o-nas-5{
+    width: 200px;
+    margin-left: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    background-color: #ffffff;
+  } 

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "o_nas.css",
+	"sources": [
+		"../../scss/blocks/o_nas.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

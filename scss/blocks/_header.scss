@@ -1,0 +1,35 @@
+//общий стиль
+.header {
+    position: sticky;
+    top: -120px;
+    z-index: 2;
+    background-color: white;
+    // height: 180px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+//стиль контейнера для лога, поиска, списка и кнопки 
+.header__container{
+    position: sticky;
+
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 14px;
+
+
+}
+.header__logo{
+    text-decoration: none;
+}
+
+
+.logo{ 
+     height: 50px;
+}
